@@ -36,6 +36,9 @@
 	#sidebar {
 		display: none;
 	}
+	#sidebar-bottom {
+		display: block;
+	}
 
 	#content {
 		width: 100%;
@@ -53,6 +56,10 @@
 	
 	.button {
 		width: 100%;
+	}
+
+	.cm {
+		width: 95%;
 	}
 	
 }
@@ -83,13 +90,15 @@
 			float: right;
 		}
 	}
-	.language {
-		float: right;
-	}
+
 
 	#sidebar {
 		display: block;
 		width: 22%;
+	}
+
+	#sidebar-bottom {
+		display: none;
 	}
 
 	#content {
@@ -109,6 +118,9 @@
 	}
 	.button {
 		width: auto;
+	}
+	.cm {
+		width: 45%; 
 	}
 }
 

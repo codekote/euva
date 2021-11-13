@@ -8,7 +8,6 @@
 		display: flex;
 		flex-direction: row;
 		align-items:center;
-		width: 45%;
 		margin: 0 auto;
 		background: $blue-color; 
 		color: $white-color ;
@@ -94,11 +93,9 @@
 		line-height: 36px;
 		margin-right: 10px;
 	}
-
-	
 }
 
-#sidebar {
+.sidebar {
 	ul {
 		list-style-type: none;
 		li {
@@ -107,6 +104,10 @@
 			margin-bottom: 2rem;
 		}
 	}
+}
+
+#sidebar-bottom {
+	margin-top: 40px;
 }
 
 #content {
