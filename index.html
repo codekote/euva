@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>EU Vaccination Association</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet"> 
+  
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+</head>
+<body>
+
+  <!-- HEADER START
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="header" class="section">
+    <div class="container">
+      <div class="row top-bar">
+        <div class="logo">
+          <img src="images/logo.svg">
+        </div>
+        <div class="nav">
+          <ul>
+            <li class="active"><a href="#">Registration</a> </li>
+            <li><a href="#">Vacctination topics</a></li>
+          </ul>
+        </div>
+        <div class="language">
+          <a href=""><img alt="EN" src="images/flags/EN.svg" alt=""></a>
+          <a href=""><img alt="DE" src="images/flags/DE.svg" alt=""></a>
+          <a href=""><img alt="FR" src="images/flags/FR.svg" alt=""></a>
+        </div>
+        <div class="online-help">
+          <a class="button button-primary button-mini" href="#">24/7 Online Help</a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <h2>Registration on&nbsp;vacctination</h2>
+        <div>
+          <div class="time">
+            <img src="images/time.svg" alt="time to complete"><span>5 mins estimated time to complete</span>
+          </div>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  <!-- CONTENT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div id="sidebar" class="three columns" style="list-style-type: none;">
+          <h6>Related</h6>
+          <ul>
+            <li><a href="#">Safety of vaccines and&nbsp;research</a></li>
+            <li><a href="#">Contraindications to&nbsp;vaccination</a></li>
+            <li><a href="#">List of vaccination centers</a></li>
+            <li><a href="#">Vaccination statistics in EU</a></li>
+            <li><a href="#">Authorised vaccines</a></li>
+            <li><a href="#">Vaccination for foreign nationals and tourists</a></li>
+            <li><a href="#">Vaccination for children</a></li>
+            <li><a href="#">Vaccination of immobile patients</a></li>
+            <li><a href="#">Certificates and movement limits</a></li>
+          </ul>
+        </div>
+        <div id="content" class="nine columns">
+            <h5>3 simple steps to complete registration</h5>
+            <div class="container steps">
+              <div class="row">
+                <div id="step1" data-target="#step-container-1" class="one-third column step-item active">
+                  <div class="step-round">1</div>
+                  <div class="step-text">Verify phone number</div>
+                </div>
+                <div id="step2" data-target="#step-container-2" class="one-third column step-item">
+                  <div class="step-round">2</div>
+                  <div class="step-text">Fill personal data</div>
+                </div>
+                <div id="step3" data-target="#step-container-3" class="one-third column step-item">
+                  <div class="step-round">3</div>
+                  <div class="step-text">Schedule a&nbsp;accination</div>
+                </div>
+              </div>
+            </div>
+            
+          <div id="step-container-1" class="step-container">
+              <div class="row">
+                <label for="exampleEmailInput">Verify your phone number</label>
+                <p>Enter your telephone number below. A one-time verification PIN code will be sent to this telephone number immediately.</p>
+                <div>
+                  <select>
+                    <option value="DE">+49</option>
+                    <option value="RU">+7</option>
+                    <option value="HMM">+19</option>
+                  </select>
+                  <input type="tel" inputmode="numeric" placeholder="01512 3456789">
+                  <a class="button button-primary" >Send code</a>
+                  <p>No code received? Ask for <a href="">resending</a>.</p>
+                </div>
+              </div>
+          </div>
+
+          <div id="step-container-2" class="step-container">
+              <div class="row">
+                <div class="six columns">
+                  <label >First name</label>
+                  <input class="u-full-width" type="text" placeholder="Type your first name" >
+                </div>
+                <div class="six columns">
+                  <label >Last name</label>
+                  <input class="u-full-width" type="text" placeholder="Type your last name" >
+                </div>
+              </div>
+              <div class="row">
+                <div class="six columns">
+                  <label>Email address</label>
+                  <input class="u-full-width" type="email" inputmode="email" placeholder="test@mailbox.com">
+                </div>
+                <div class="six columns">
+                  <label>Birth date</label>
+                  <input class="u-full-width" type="date" placeholder="test@mailbox.com">
+                </div>
+              </div>
+              <div class="row">
+                <div class="six columns">
+                  <label>Country</label>
+                  <select class="u-full-width">
+                    <option value="" disabled selected>Select a country of living</option>
+                    <option value="GB">Great Britain</option>
+                    <option value="DE">Germany</option>
+                    <option value="FR">France</option>
+                  </select>
+                </div>
+                <div class="six columns">
+                  <label>City</label>
+                  <select class="u-full-width">
+                    <option value="" disabled selected>Select a city</option>
+                    <option value="GB">Great Britain</option>
+                    <option value="DE">Germany</option>
+                    <option value="FR">France</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row spacer">
+                <div class="six columns">
+                  <label>Address</label>
+                  <input class="u-full-width" type="text" placeholder="Type your address">
+                </div>
+                <div class="six columns">
+                  <label>ZIP-code</label>
+                  <input class="u-full-width" type="text" inputmode="numeric" placeholder="Type ZIP-code">
+                </div>
+              </div>
+              <div class="row">
+                <div class="six columns">
+                  <label class="checkbox u-full-width spacer">
+                    <input type="checkbox">
+                    <span class="label-body">I have read and understood <a href="">how my personal data will be processed.</a></span>
+                  </label>
+                </div>
+                <div class="six columns">
+                  <a class="button button-primary">Go to next step</a>
+                </div>
+              </div>
+          </div>
+
+          <div id="step-container-3" class="step-container">
+            <div class="row">
+                <label>Date and time of visit</label>
+                <input type="date" >
+                <input type="time" >
+                <a class="button button-primary">Complete Registration</a>
+            </div>
+          </div>
+            <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+            <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- FOOTER 
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="footer" class="section">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column">
+          <h6>EU Vaccination Association</h6>
+        </div>
+        <div class="one-third column">
+          <ul>
+            <li><a href="#">Contact the EU Vaccination Association</a></li>
+            <li><a href="#">Follow the EU Vaccination Association on&nbsp;social media</a></li>
+            <li><a href="#">Resources for partners</a></li>
+          </ul>
+        </div>
+        <div class="one-third column">
+          <ul>
+            <li><a href="#">Language policy</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Legal notice</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- EOF 
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<script>
+  $(document).ready(function() {
+
+    $('.step-container').hide();
+    $('#step-container-1').show();
+
+    function changeTab(){
+      var target = $(this).data('target');
+      
+      $('.steps > .row > div').removeClass('active');
+      $(this).addClass('active');    
+      $('.step-container').hide();
+      $(target).show();
+    }
+
+    $('.steps > .row > div').click(changeTab);
+
+  });
+</script>
+</body>
+</html>

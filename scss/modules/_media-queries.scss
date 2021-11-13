@@ -1,0 +1,125 @@
+// Media Queries
+//––––––––––––––––––––––––––––––––––––––––––––––––––
+
+// Note: The best way to structure the use of media queries is to create the queries
+// near the relevant code. For example, if you wanted to change the styles for buttons
+// on small devices, paste the mobile query code up in the buttons section and style it
+// there.
+
+// Larger than mobile
+@media (#{$bp-larger-than-mobile}) {
+	.top-bar {
+		text-align: center;
+		& > div {
+			float: none;
+		}
+		.nav {
+			margin:0;
+			ul {
+				li {
+					padding: 0 10px;
+				}
+			}
+		}
+	}
+	.online-help {
+		.button {
+			margin: 12px 0 !important;
+			width: 100%;
+		}
+	}
+	.language {
+		float: none;
+		text-align: center;
+	}
+
+	#sidebar {
+		display: none;
+	}
+
+	#content {
+		width: 100%;
+		margin-left: 0;
+	}
+	.steps {
+		padding: 20px 20px 10px 20px;
+		.step-item {
+			margin-bottom: 10px;
+			.step-text {
+				max-width: 100px !important;
+			}
+		}
+	}
+	
+	.button {
+		width: 100%;
+	}
+	
+}
+
+// Larger than phablet (also point when grid becomes active)
+@media (#{$bp-larger-than-phablet}) {
+	.step-round {
+		margin-bottom: 10px;
+	}
+}
+
+// Larger than tablet
+@media (#{$bp-larger-than-tablet}) {
+	.top-bar {
+		& > div {
+			float: left;
+		}
+		.nav {
+			margin: 0 0 0 30px;
+			max-width: 340px;
+			ul {
+				li {
+					padding: 0 20px;
+				}
+			}
+		}
+		.online-help {
+			float: right;
+		}
+	}
+	.language {
+		float: right;
+	}
+
+	#sidebar {
+		display: block;
+		width: 22%;
+	}
+
+	#content {
+		width: 74%;
+		margin-left: 4%;
+
+		.steps {
+			padding: 20px 20px 20px 20px;
+			.step-item {
+				margin-bottom: 0;
+				.step-text {
+					max-width: 100px !important;
+				}
+			}
+			
+		}
+	}
+	.button {
+		width: auto;
+	}
+}
+
+// Larger than desktop
+@media (#{$bp-larger-than-desktop}) {
+	
+}
+
+// Larger than Desktop HD
+@media (#{$bp-larger-than-desktophd}) {
+	.step-round {
+		margin-bottom: 0px;
+	}
+}
