@@ -35,8 +35,16 @@
 
 </head>
 <body>
+  <!-- COOKIES MESSAGE
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div id="cm-container">
+    <div class="cm">
+        <p>This website is using cookies. By continuing to browse, you are agreeing to our use of cookies as explained in our <a href="#">Cookie Policy</a>.</p>
+        <a id="close-cm" class="button button-primary button-mini" >Agree</a>
+    </div>
+  </div>
 
-  <!-- HEADER START
+  <!-- HEADER
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div id="header" class="section">
     <div class="container">
@@ -240,6 +248,7 @@
 
     $('.step-container').hide();
     $('#step-container-1').show();
+    $('#close-cm').show();
 
     function changeTab(){
       var target = $(this).data('target');
@@ -251,6 +260,10 @@
     }
 
     $('.steps > .row > div').click(changeTab);
+
+    $('#close-cm').click(function() {    
+      $('#cm-container').hide();
+    });
 
   });
 </script>
